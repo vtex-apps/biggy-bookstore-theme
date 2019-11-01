@@ -52,6 +52,11 @@
     width: 250px;
   }
 
+  .filter_container {
+    border-top: 1px solid #979899;
+    border-bottom: 1px solid #979899;
+  }
+
   .filterIcon {
     display: inline;
   }
