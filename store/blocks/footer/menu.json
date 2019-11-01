@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#About": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "center-menu"
     },
     "children": [
       "menu-item#aboutus",
@@ -12,7 +13,8 @@
   },
   "vtex.menu@2.x:menu#About-2": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "center-menu"
     },
     "children": [
       "menu-item#work",
