@@ -10,6 +10,42 @@
       "menu-item#terms"
     ]
   },
+  "vtex.menu@2.x:menu#About-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#work", "menu-item#store"]
+  },
+  "menu-item#work": {
+    "props": {
+      "id": "menu-item-work",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Work with us",
+        "text": "Work with us"
+      }
+    }
+  },
+  "menu-item#store": {
+    "props": {
+      "id": "menu-item-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Stores",
+        "text": "Stores"
+      }
+    }
+  },
   "menu-item#aboutus": {
     "props": {
       "id": "menu-item-aboutus",
