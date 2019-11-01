@@ -1,133 +1,51 @@
 {
-    "flex-layout.row#top-categories-desktop": {
-        "children": [
-            "flex-layout.col#top-categories-desktop"
-        ]
-    },
-    "flex-layout.col#top-categories-desktop": {
-        "children": [
-            "flex-layout.row#top-categories-desktop-title",
-            "flex-layout.row#top-categories-desktop-images"
-        ]
-    },
-    "flex-layout.row#top-categories-desktop-title": {
-        "children": [
-            "rich-text#top-categories-title"
-        ]
-    },
-    "rich-text#top-categories-title": {
+    "list-context.image-list#top-categories": {
+        "children": ["slider-layout#top-categories"],
         "props": {
-            "text": "Top Categories"
-        }
-    },
-    "flex-layout.row#top-categories-desktop-images": {
-        "children": [
-            "image#category1",
-            "image#category2",
-            "image#category3",
-            "image#category4",
-            "image#category5"
-        ]
-    },
-    "image#category1": {
-        "props": {
-            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-            "alt": "Category 1",
-            "link": "#"
-        }
-    },
-    "image#category2": {
-        "props": {
-            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-            "alt": "Category 2",
-            "link": "#"
-        }
-    },
-    "image#category3": {
-        "props": {
-            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-            "alt": "Category 3",
-            "link": "#"
-        }
-    },
-    "image#category4": {
-        "props": {
-            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-            "alt": "Category 4",
-            "link": "#"
-        }
-    },
-    "image#category5": {
-        "props": {
-            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-            "alt": "Category 5",
-            "link": "#"
-        }
-    },
-
-    "flex-layout.row#top-categories-phone": {
-        "props": {
-            "horizontalAlign": "center",
-            "preventsVerticalStretch": true,
-            "preventsHorizontalStretch": true
-        },
-        "children": [
-            "carousel#top-categories-phone"
-        ]
-    },
-
-    "carousel#top-categories-phone": {
-        "props": {
-          "autoplay": false,
-          "banners": [
+          "height": 300,
+          "images": [
             {
-                "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "customInternalUrl": "#",
-                "description": "Category 1"
+              "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+              "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+              "description": "something something",
+              "link": "#"
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "customInternalUrl": "#",
-                "description": "Category 2"
+                "description": "something something",
+                "link": "#"
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "customInternalUrl": "#",
-                "description": "Category 3"
+                "description": "something something",
+                "link": "#"
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "customInternalUrl": "#",
-                "description": "Category 4"
+                "description": "something something",
+                "link": "#"
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
-                "customInternalUrl": "#",
-                "description": "Category 5"
+                "description": "something something",
+                "link": "#"
             }
-          ],
-          "height": 420,
-          "showArrows": true,
-          "showDots": true
+          ]
         }
       },
     
-      "info-card#home": {
+      "slider-layout#top-categories": {
         "props": {
-          "id": "info-card-home",
-          "isFullModeStyle": false,
-          "textPosition": "left",
-          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-          "headline": "Clearance Sale",
-          "callToActionText": "DISCOVER",
-          "callToActionUrl": "/sale/d",
-          "blockClass": "info-card-home",
-          "textAlignment": "center"
+          "itemsPerPage": {
+            "desktop": 5,
+            "phone": 1
+          },
+          "infinite": true,
+          "usePagination": false
         }
       }
 }

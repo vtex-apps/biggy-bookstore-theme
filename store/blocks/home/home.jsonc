@@ -3,9 +3,7 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#top-shelves",
-      "responsive-layout.desktop#home",
-      "responsive-layout.tablet#home",
-      "responsive-layout.phone#home"
+      "list-context.image-list#top-categories"
     ]
   },
 
@@ -40,33 +38,6 @@
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
-  },
-
-  "responsive-layout.desktop#home": {
-    "children": [
-      "flex-layout.row#top-categories-desktop",
-      "flex-layout.row#promo-banners-desktop"
-    ]
-  },
-
-  "responsive-layout.tablet#home": {
-    "children": [
-      "flex-layout.row#top-categories-desktop",
-      "flex-layout.row#promo-banners-desktop"
-    ]
-  },
-
-  "responsive-layout.phone#home": {
-    "children": [
-      "flex-layout.row#top-categories-phone"
-    ]
-  },
-
-  "flex-layout.row#promo-banners-desktop": {
-    "children": [
-      "flex-layout.col#promo-banner1",
-      "flex-layout.col#promo-banner2"
-    ]
   },
 
   "flex-layout.col#promo-banner1": {
