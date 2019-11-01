@@ -19,7 +19,6 @@
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
-    "vtex.slider-layout": "0.x",
     "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
@@ -40,7 +39,9 @@
     "vtex.product-customizer": "2.x",
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
-    "vtex.responsive-layout": "0.x"
+    "vtex.responsive-layout": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.slider-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

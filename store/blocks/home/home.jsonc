@@ -90,14 +90,16 @@
   "image#promo-banner1": {
     "props": {
       "src": "https://images-submarino.b2w.io/spacey/2019/10/31/2-samsung-intel-inside-Q4-odyssey-sub-home-bottom-duplo-600x230.png",
-      "alt": "Promo Banner 1"
+      "alt": "Promo Banner 1",
+      "link": "#"
     }
   },
 
   "image#promo-banner2": {
     "props": {
       "src": "https://images-submarino.b2w.io/spacey/2019/10/31/2-samsung-intel-inside-Q4-odyssey-sub-home-bottom-duplo-600x230.png",
-      "alt": "Promo Banner 2"
+      "alt": "Promo Banner 2",
+      "link": "#"
     }
   }
 }

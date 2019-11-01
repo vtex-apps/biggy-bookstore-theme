@@ -11,6 +11,7 @@
         }
     },
     "flex-layout.col#top-shelf1": {
+        "horizontalAlign": "center",
         "children": [
             "shelf#shelf1"
         ]
@@ -48,6 +49,7 @@
         }
     },
     "flex-layout.col#top-shelf2": {
+        "horizontalAlign": "center",
         "children": [
             "shelf#shelf2"
         ]
@@ -85,6 +87,7 @@
         }
     },
     "flex-layout.col#top-shelf3": {
+        "horizontalAlign": "center",
         "children": [
             "shelf#shelf3"
         ]
@@ -122,6 +125,7 @@
         }
     },
     "flex-layout.col#top-shelf4": {
+        "horizontalAlign": "center",
         "children": [
             "shelf#shelf4"
         ]

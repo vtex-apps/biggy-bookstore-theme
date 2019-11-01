@@ -1,0 +1,250 @@
+{
+    "store.custom#landing-page": {
+        "blocks": [
+            "image#top-banner",
+            "rich-text#copy",
+            "rich-text#title",
+            "list-context.image-list#category-list",
+            "shelf#product-list1",
+            "shelf#product-list2",
+            "shelf#product-list3",
+            "shelf#product-list4",
+            "shelf#product-list5"
+        ]
+    },
+    "image#top-banner": {
+        "props": {
+            "src": "https://files.gamebanana.com/img/ss/guis/583c8cb3d831c.jpg",
+            "alt": "Landing Page Banner"
+        }
+    },
+    "rich-text#copy": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non dui at risus sagittis ultrices.\n Pellentesque aliquet vulputate felis et tempor."
+          }
+    },
+    
+    "rich-text#title": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Lorem ipsum dolor sit amet**"
+          }
+    },
+    "list-context.image-list#category-list": {
+        "children": ["slider-layout#category-images"],
+        "props": {
+          "height": 100,
+          "images": [
+            {
+              "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+              "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+              "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            }
+          ]
+        }
+      },
+    
+      "slider-layout#category-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "phone": 2
+          },
+          "infinite": true,
+          "usePagination": false
+        }
+      },
+    "shelf#product-list1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 1",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "shelf#product-list2": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 2",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "shelf#product-list3": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 3",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "shelf#product-list4": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 4",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "shelf#product-list5": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 5",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    }
+}
