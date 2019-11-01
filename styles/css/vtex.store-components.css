@@ -126,3 +126,7 @@
 .skuSelectorSubcontainer {
   margin-bottom: 0;
 }
+
+.imageElement {
+  max-width: 100% !important;
+}

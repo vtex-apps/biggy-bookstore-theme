@@ -18,13 +18,12 @@
 }
 
 .container:hover {
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
   transform: scale(1.025);
   transition: 0.2s;
 }
 
 .container {
-  min-height: 590px;
+  max-height: 573px;
 }
 
 .container:hover .buyButton {
