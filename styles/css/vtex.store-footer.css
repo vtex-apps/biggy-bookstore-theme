@@ -9,3 +9,8 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.socialNetworksContainer,
+.acceptedPaymentMethodContainer {
+  justify-content: center;
+}
