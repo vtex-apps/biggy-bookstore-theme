@@ -7,7 +7,12 @@
 }
 
 .searchBarContainer {
-  max-width: 265px;
+  max-width: 95%;
+  padding-top: 0;
+}
+
+.searchBarIcon svg {
+  color: #222;
 }
 
 .infoCardContainer--info-card-home {
@@ -86,6 +91,11 @@
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
+  }
+
+  .searchBarContainer {
+    max-width: 60%;
+    margin-top: 15px;
   }
 }
 

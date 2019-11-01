@@ -16,8 +16,8 @@
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ],
-      "height": 720,
-      "showArrows": true,
+      "height": 480,
+      "showArrows": false,
       "showDots": true
     }
   },

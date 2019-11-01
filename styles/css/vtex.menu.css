@@ -1,3 +1,6 @@
 .styledLink div {
   justify-content: center;
 }
+.styledLink {
+    color: #fff;
+}
