@@ -139,3 +139,15 @@
 .imageElement {
   max-width: 100% !important;
 }
+
+.newsletter{
+  max-width: initial;
+}
+
+.newsletter .container {
+  padding: 10px;
+}
+
+.newsletter .container .inputGroup {
+  border: 0px;
+}
