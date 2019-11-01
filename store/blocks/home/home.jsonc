@@ -3,8 +3,9 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#top-shelves",
-      "flex-layout.row#top-categories",
-      "flex-layout.row#promo-banners"
+      "responsive-layout.desktop#home",
+      "responsive-layout.tablet#home",
+      "responsive-layout.phone#home"
     ]
   },
 
@@ -41,20 +42,46 @@
     }
   },
 
-  "flex-layout.row#promo-banners": {
+  "responsive-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#top-categories-desktop",
+      "flex-layout.row#promo-banners-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#home": {
+    "children": [
+      "flex-layout.row#top-categories-desktop",
+      "flex-layout.row#promo-banners-desktop"
+    ]
+  },
+
+  "responsive-layout.phone#home": {
+    "children": [
+      "flex-layout.row#top-categories-phone"
+    ]
+  },
+
+  "flex-layout.row#promo-banners-desktop": {
     "children": [
       "flex-layout.col#promo-banner1",
-      "flex-layour.col#promo-banner2"
+      "flex-layout.col#promo-banner2"
     ]
   },
 
   "flex-layout.col#promo-banner1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "image#promo-banner1"
     ]
   },
 
   "flex-layout.col#promo-banner2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "image#promo-banner2"
     ]
