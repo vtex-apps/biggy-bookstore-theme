@@ -2,37 +2,57 @@
     "list-context.image-list#top-categories": {
         "children": ["slider-layout#top-categories"],
         "props": {
-          "height": 300,
+          "height": 200,
           "images": [
             {
               "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
               "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
               "description": "something something",
-              "link": "#"
+              "link": {
+                  "url": "cat1",
+                  "attributeTitle": "Categoria 1",
+                  "newTab": false
+              }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "description": "something something",
-                "link": "#"
+                "link": {
+                    "url": "cat2",
+                    "attributeTitle": "Categoria 2",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "description": "something something",
-                "link": "#"
+                "link": {
+                    "url": "cat3",
+                    "attributeTitle": "Categoria 3",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "description": "something something",
-                "link": "#"
+                "link": {
+                    "url": "cat4",
+                    "attributeTitle": "Categoria 4",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
                 "description": "something something",
-                "link": "#"
+                "link": {
+                    "url": "cat5",
+                    "attributeTitle": "Categoria 5",
+                    "newTab": false
+                }
             }
           ]
         }

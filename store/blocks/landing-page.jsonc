@@ -1,7 +1,7 @@
 {
     "store.custom#landing-page": {
         "blocks": [
-            "image#top-banner",
+            "flex-layout.row#lp-banner",
             "rich-text#copy",
             "rich-text#title",
             "list-context.image-list#category-list",
@@ -12,7 +12,16 @@
             "shelf#product-list5"
         ]
     },
-    "image#top-banner": {
+
+    "flex-layout.row#lp-banner": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#lp-banner"
+        ]
+    },
+    "image#lp-banner": {
         "props": {
             "src": "https://files.gamebanana.com/img/ss/guis/583c8cb3d831c.jpg",
             "alt": "Landing Page Banner"
@@ -41,27 +50,52 @@
             {
               "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
               "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
-              "description": "something something"
+              "description": "something something",
+              "link": {
+                "url": "cat5",
+                "attributeTitle": "Categoria 5",
+                "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
-                "description": "something something"
+                "description": "something something",
+                "link": {
+                    "url": "cat5",
+                    "attributeTitle": "Categoria 5",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
-                "description": "something something"
+                "description": "something something",
+                "link": {
+                    "url": "cat5",
+                    "attributeTitle": "Categoria 5",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
-                "description": "something something"
+                "description": "something something",
+                "link": {
+                    "url": "cat5",
+                    "attributeTitle": "Categoria 5",
+                    "newTab": false
+                }
             },
             {
                 "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
                 "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
-                "description": "something something"
+                "description": "something something",
+                "link": {
+                    "url": "cat5",
+                    "attributeTitle": "Categoria 5",
+                    "newTab": false
+                }
             }
           ]
         }
