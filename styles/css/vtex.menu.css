@@ -1,6 +1,6 @@
 .styledLink div {
-  justify-content: left;
+  justify-content: center;
 }
 .menuItem--side-menu-link a {
-    color: #fff;
+  color: #fff;
 }
