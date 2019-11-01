@@ -7,7 +7,12 @@
 }
 
 .searchBarContainer {
-  max-width: 265px;
+  max-width: 95%;
+  padding-top: 0;
+}
+
+.searchBarIcon svg {
+  color: #222;
 }
 
 .infoCardContainer--info-card-home {
@@ -89,3 +94,4 @@
     max-height: 600px;
   }
 }
+

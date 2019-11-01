@@ -1,0 +1,8 @@
+.openIconContainer--drawer-icon svg {
+    color: #fafafa;
+}
+
+.closeIconContainer--drawer-icon {
+    display: flex;
+    justify-content: flex-end;
+}

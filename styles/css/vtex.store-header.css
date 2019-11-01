@@ -4,15 +4,28 @@
 }
 
 .headerRow--main-header .headerRowBackground {
-  background-color: #F0F0F0;
+  background-color: #29B6F6;
 }
 
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
-  color: #727273;
   font-size: 14px;
 }
 
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
-  background-color: #F0F0F0;
+  background-color: #4FC3F7;
+}
+
+.headerRowBackground--input-header-mobile {
+  background: #4FC3F7;
+}
+
+.headerRowContainer--main-header-mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerRowContainer--input-header-mobile {
+  display: flex;
+  justify-content: center;
 }
