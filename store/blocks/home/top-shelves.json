@@ -16,7 +16,7 @@
         ]
     },
     "shelf#shelf1": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#sku"],
         "props": {
             "category": "1/9",
             "orderBy": "OrderByTopSaleDESC",
@@ -54,7 +54,7 @@
         ]
     },
     "shelf#shelf2": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#sku"],
         "props": {
             "category": "1/6",
             "orderBy": "OrderByTopSaleDESC",
@@ -92,7 +92,7 @@
         ]
     },
     "shelf#shelf3": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#sku"],
         "props": {
             "category": "1/8",
             "orderBy": "OrderByTopSaleDESC",
@@ -130,7 +130,7 @@
         ]
     },
     "shelf#shelf4": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#sku"],
         "props": {
             "category": "3/10",
             "orderBy": "OrderByTopSaleDESC",
