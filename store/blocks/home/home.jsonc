@@ -1,10 +1,6 @@
 {
   "store.home": {
-    "blocks": [
-      "carousel#home",
-      "flex-layout.row#top-shelves",
-      "list-context.image-list#top-categories"
-    ]
+    "blocks": ["carousel#home", "flex-layout.row#top-shelves"]
   },
 
   "carousel#home": {
@@ -44,18 +40,14 @@
     "props": {
       "horizontalAlign": "center"
     },
-    "children": [
-      "image#promo-banner1"
-    ]
+    "children": ["image#promo-banner1"]
   },
 
   "flex-layout.col#promo-banner2": {
     "props": {
       "horizontalAlign": "center"
     },
-    "children": [
-      "image#promo-banner2"
-    ]
+    "children": ["image#promo-banner2"]
   },
 
   "image#promo-banner1": {

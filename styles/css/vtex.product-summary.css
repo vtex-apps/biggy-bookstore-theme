@@ -10,15 +10,21 @@
   min-height: 84px;
 }
 
-.buyButton {
-  opacity: 0;
-  transition: all 0.2s ease-out;
+@media only screen and (min-width: 1026px) {
+  .buyButton {
+    opacity: 0;
+    transition: all 0.2s ease-out;
+  }
 }
 
 .container:hover {
-  ox-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
   transform: scale(1.025);
   transition: 0.2s;
+}
+
+.container {
+  min-height: 590px;
 }
 
 .container:hover .buyButton {
