@@ -14,7 +14,42 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": ["menu-item#work", "menu-item#store"]
+    "children": [
+      "menu-item#work",
+      "menu-item#store",
+      "menu-item#info",
+      "menu-item#clients"
+    ]
+  },
+  "menu-item#clients": {
+    "props": {
+      "id": "menu-item-clients",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "clients",
+        "text": "clients"
+      }
+    }
+  },
+  "menu-item#info": {
+    "props": {
+      "id": "menu-item-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Info",
+        "text": "Info"
+      }
+    }
   },
   "menu-item#work": {
     "props": {
