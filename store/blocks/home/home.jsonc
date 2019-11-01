@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home"
-      
+      "carousel#home",
+      "flex-layout.row#promo-banners"
     ]
   },
 
@@ -36,6 +36,47 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#promo-banners": {
+    "children": [
+      "flex-layout.col#promo-banner1",
+      "flex-layout.col#promo-banner2"
+    ]
+  },
+
+  "flex-layout.col#promo-banner1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#promo-banner1"
+    ]
+  },
+
+  "flex-layout.col#promo-banner2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#promo-banner2"
+    ]
+  },
+
+  "image#promo-banner1": {
+    "props": {
+      "src": "https://images-submarino.b2w.io/spacey/2019/10/31/2-samsung-intel-inside-Q4-odyssey-sub-home-bottom-duplo-600x230.png",
+      "alt": "Promo Banner 1",
+      "link": "#"
+    }
+  },
+
+  "image#promo-banner2": {
+    "props": {
+      "src": "https://images-submarino.b2w.io/spacey/2019/10/31/2-samsung-intel-inside-Q4-odyssey-sub-home-bottom-duplo-600x230.png",
+      "alt": "Promo Banner 2",
+      "link": "#"
     }
   }
 }
