@@ -2,8 +2,11 @@
     "store.custom#landing-page": {
         "blocks": [
             "flex-layout.row#banner-lp",
+            "responsive-layout.phone#lp1",
             "flex-layout.row#landing-page1",
+            "responsive-layout.phone#lp2",
             "flex-layout.row#landing-page2",
+            "responsive-layout.phone#lp3",
             "flex-layout.row#landing-page3"
         ]
     },
@@ -30,7 +33,19 @@
         },
         "children": [
             "flex-layout.col#lp1-products",
+            "responsive-layout.desktop#lp1"
+        ]
+    },
+
+    "responsive-layout.desktop#lp1": {
+        "children": [
             "flex-layout.col#lp1-card"
+        ]
+    },
+
+    "responsive-layout.phone#lp1": {
+        "children": [
+            "flex-layout.row#lp1-card-phone"
         ]
     },
 
@@ -95,7 +110,23 @@
         ]
     },
 
+    "flex-layout.row#lp1-card-phone": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#lp1-card-phone"
+        ]
+    },
+
     "image#lp1-card": {
+        "props": {
+            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+        }
+    },
+
+    "image#lp1-card-phone": {
         "props": {
             "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
         }
@@ -106,8 +137,20 @@
             "horizontalAlign": "center"
         },
         "children": [
-            "flex-layout.col#lp2-card",
+            "responsive-layout.desktop#lp2",
             "flex-layout.col#lp2-products"
+        ]
+    },
+
+    "responsive-layout.desktop#lp2": {
+        "children": [
+            "flex-layout.col#lp2-card"
+        ]
+    },
+
+    "responsive-layout.phone#lp2": {
+        "children": [
+            "flex-layout.row#lp2-card-phone"
         ]
     },
 
@@ -122,7 +165,23 @@
         ]
     },
 
+    "flex-layout.row#lp2-card-phone": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#lp2-card-phone"
+        ]
+    },
+
     "image#lp2-card": {
+        "props": {
+            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+        }
+    },
+
+    "image#lp2-card-phone": {
         "props": {
             "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
         }
@@ -184,6 +243,18 @@
         },
         "children": [
             "flex-layout.col#lp3-products",
+            "responsive-layout.desktop#lp3"
+        ]
+    },
+
+    "responsive-layout.phone#lp3": {
+        "children": [
+            "flex-layout.row#lp3-card-phone"
+        ]
+    },
+
+    "responsive-layout.desktop#lp3": {
+        "children": [
             "flex-layout.col#lp3-card"
         ]
     },
@@ -249,7 +320,23 @@
         ]
     },
 
+    "flex-layout.row#lp3-card-phone": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#lp3-card-phone"
+        ]
+    },
+
     "image#lp3-card": {
+        "props": {
+            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+        }
+    },
+
+    "image#lp3-card-phone": {
         "props": {
             "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
         }
