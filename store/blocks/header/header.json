@@ -32,7 +32,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bigbooks2___28c1d5ad941ed86393e60332562eca06.png",
       "width": "180"
     }
   },
@@ -179,7 +179,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bigbooks3___4ca412ca4dd79337bd2f30e1fa4671e9.png",
       "width": "70"
     }
   }

@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["flex-layout.row#banner-home", "flex-layout.row#top-shelves"]
+    "blocks": ["flex-layout.row#banner-home", "flex-layout.row#top-shelves", "flex-layout.row#deals"]
   },
 
   "flex-layout.row#banner-home": {
