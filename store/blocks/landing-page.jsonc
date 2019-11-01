@@ -1,43 +1,83 @@
 {
     "store.custom#landing-page": {
         "blocks": [
-            "image#landing-page",
-            "flex-layout.row#landing-page1",
-            "flex-layout.row#landing-page2",
-            "flex-layout.row#landing-page3"
+            "image#top-banner",
+            "rich-text#copy",
+            "rich-text#title",
+            "list-context.image-list#category-list",
+            "shelf#product-list1",
+            "shelf#product-list2",
+            "shelf#product-list3",
+            "shelf#product-list4",
+            "shelf#product-list5"
         ]
     },
-
-    "image#landing-page": {
+    "image#top-banner": {
         "props": {
             "src": "https://files.gamebanana.com/img/ss/guis/583c8cb3d831c.jpg",
             "alt": "Landing Page Banner"
         }
     },
-
-    "flex-layout.row#landing-page1": {
-        "children": [
-            "flex-layout.col#lp1-products",
-            "flex-layout.col#lp1-card"
-        ]
-    },
-
-    "flex-layout.col#lp1-products": {
+    "rich-text#copy": {
         "props": {
-            "width": "70%"
-        },
-        "children": [
-            "flex-layout.row#lp1-products"
-        ]
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non dui at risus sagittis ultrices.\n Pellentesque aliquet vulputate felis et tempor."
+          }
     },
-
-    "flex-layout.row#lp1-products": {
-        "children": [
-            "shelf#lp1-products"
-        ]
+    
+    "rich-text#title": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Lorem ipsum dolor sit amet**"
+          }
     },
-
-    "shelf#lp1-products": {
+    "list-context.image-list#category-list": {
+        "children": ["slider-layout#category-images"],
+        "props": {
+          "height": 100,
+          "images": [
+            {
+              "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+              "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+              "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            },
+            {
+                "image": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "mobileImage": "https://statics.livrariacultura.net.br/assets/static/hotsites/2019/cultura-indica-listas/herois-underground.png",
+                "description": "something something"
+            }
+          ]
+        }
+      },
+    
+      "slider-layout#category-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "phone": 2
+          },
+          "infinite": true,
+          "usePagination": false
+        }
+      },
+    "shelf#product-list1": {
         "blocks": [
             "product-summary.shelf"
         ],
@@ -45,10 +85,12 @@
             "orderBy": "OrderByTopSaleDESC",
             "productList": {
                 "maxItems": 10,
-                "itemsPerPage": 3,
+                "itemsPerPage": 4,
                 "scroll": "BY_PAGE",
                 "arrows": true,
                 "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 1",
                 "summary": {
                     "isOneClickBuy": false,
                     "showBadge": true,
@@ -69,64 +111,7 @@
             }
         }
     },
-
-    "flex-layout.col#lp1-card": {
-        "props": {
-            "width": "30%",
-            "verticalAlign": "middle",
-            "horizontalAlign": "right"
-        },
-        "children": [
-            "image#lp1-card"
-        ]
-    },
-
-    "image#lp1-card": {
-        "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
-        }
-    },
-
-    "flex-layout.row#landing-page2": {
-        "children": [
-            "flex-layout.col#lp2-card",
-            "flex-layout.col#lp2-products"
-        ]
-    },
-
-    "flex-layout.col#lp2-card": {
-        "props": {
-            "width": "30%",
-            "verticalAlign": "middle",
-            "horizontalAlign": "left"
-        },
-        "children": [
-            "image#lp2-card"
-        ]
-    },
-
-    "image#lp2-card": {
-        "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
-        }
-    },
-
-    "flex-layout.col#lp2-products": {
-        "props": {
-            "width": "70%"
-        },
-        "children": [
-            "flex-layout.row#lp2-products"
-        ]
-    },
-
-    "flex-layout.row#lp2-products": {
-        "children": [
-            "shelf#lp2-products"
-        ]
-    },
-
-    "shelf#lp2-products": {
+    "shelf#product-list2": {
         "blocks": [
             "product-summary.shelf"
         ],
@@ -134,10 +119,12 @@
             "orderBy": "OrderByTopSaleDESC",
             "productList": {
                 "maxItems": 10,
-                "itemsPerPage": 3,
+                "itemsPerPage": 4,
                 "scroll": "BY_PAGE",
                 "arrows": true,
                 "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 2",
                 "summary": {
                     "isOneClickBuy": false,
                     "showBadge": true,
@@ -158,30 +145,7 @@
             }
         }
     },
-
-    "flex-layout.row#landing-page3": {
-        "children": [
-            "flex-layout.col#lp3-products",
-            "flex-layout.col#lp3-card"
-        ]
-    },
-
-    "flex-layout.col#lp3-products": {
-        "props": {
-            "width": "70%"
-        },
-        "children": [
-            "flex-layout.row#lp3-products"
-        ]
-    },
-
-    "flex-layout.row#lp3-products": {
-        "children": [
-            "shelf#lp3-products"
-        ]
-    },
-
-    "shelf#lp3-products": {
+    "shelf#product-list3": {
         "blocks": [
             "product-summary.shelf"
         ],
@@ -189,10 +153,12 @@
             "orderBy": "OrderByTopSaleDESC",
             "productList": {
                 "maxItems": 10,
-                "itemsPerPage": 3,
+                "itemsPerPage": 4,
                 "scroll": "BY_PAGE",
                 "arrows": true,
                 "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 3",
                 "summary": {
                     "isOneClickBuy": false,
                     "showBadge": true,
@@ -213,21 +179,72 @@
             }
         }
     },
-
-    "flex-layout.col#lp3-card": {
+    "shelf#product-list4": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
         "props": {
-            "width": "30%",
-            "verticalAlign": "middle",
-            "horizontalAlign": "right"
-        },
-        "children": [
-            "image#lp3-card"
-        ]
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 4",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
     },
-
-    "image#lp3-card": {
+    "shelf#product-list5": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "titleText": "Category 5",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
         }
     }
 }
