@@ -80,13 +80,14 @@
     "children": [
       "newsletter",
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
     ]
   },
   "flex-layout.row#1-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile-1", "flex-layout.col#footer-1-mobile-2"],
     "props": {
-      "paddingTop": 4,
+      "paddingTop": 6,
       "paddingBottom": 4,
       "preserveLayoutOnMobile": true
     }
@@ -106,5 +107,11 @@
       "paddingBottom": 4
     },
     "children": ["vtex.menu@2.x:menu#About"]
+  },
+  "flex-layout.row#3-footer-mobile": {
+    "props": {
+      "paddingTop": 4
+    },
+    "children": ["rich-text#footer"]
   }
 }

@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;
