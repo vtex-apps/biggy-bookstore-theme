@@ -1,0 +1,161 @@
+{
+    "flex-layout.row#top-shelves": {
+        "children": [
+            "flex-layout.col#top-shelf1",
+            "flex-layout.col#top-shelf2",
+            "flex-layout.col#top-shelf3",
+            "flex-layout.col#top-shelf4"
+        ],
+        "props": {
+            "blockClass": "top-shelves"
+        }
+    },
+    "flex-layout.col#top-shelf1": {
+        "children": [
+            "shelf#shelf1"
+        ]
+    },
+    "shelf#shelf1": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "New collection",
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "flex-layout.col#top-shelf2": {
+        "children": [
+            "shelf#shelf2"
+        ]
+    },
+    "shelf#shelf2": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "New collection",
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "flex-layout.col#top-shelf3": {
+        "children": [
+            "shelf#shelf3"
+        ]
+    },
+    "shelf#shelf3": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "New collection",
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    },
+    "flex-layout.col#top-shelf4": {
+        "children": [
+            "shelf#shelf4"
+        ]
+    },
+    "shelf#shelf4": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "New collection",
+                "hideUnavailableItems": true,
+                "paginationDotsVisibility": "hidden",
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
+    }
+}
