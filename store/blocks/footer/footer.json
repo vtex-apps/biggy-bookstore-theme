@@ -111,7 +111,7 @@
   "flex-layout.row#3-footer-mobile": {
     "props": {
       "text": "All stock and product photos are from photos.icons8.com =)",
-      "blockClass": "footer"
+      "blockClass": "footer",
       "paddingTop": 4
     },
     "children": ["rich-text#footer"]
