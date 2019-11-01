@@ -1,26 +1,29 @@
 {
   "store.home": {
-    "blocks": ["carousel#home", "flex-layout.row#top-shelves"]
+    "blocks": ["flex-layout.row#banner-home", "flex-layout.row#top-shelves"]
   },
 
-  "carousel#home": {
+  "flex-layout.row#banner-home": {
     "props": {
-      "autoplay": false,
-      "banners": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ],
-      "height": 480,
-      "showArrows": false,
-      "showDots": true
+        "fullWidth": true,
+        "horizontalAlign": "center"
+    },
+    "children": [
+        "image#banner-home"
+    ]
+},
+
+"image#banner-home": {
+    "props": {
+        "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerhome___61eea668a733cfec1868ed36b2e5954d.png",
+        "alt": "Home Page Banner",
+        "link": {
+          "url": "lp",
+          "attributeTitle": "Landing Page",
+          "newTab": false
+      }
     }
-  },
+},
 
   "info-card#home": {
     "props": {

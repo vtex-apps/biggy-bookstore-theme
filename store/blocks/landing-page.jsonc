@@ -13,6 +13,7 @@
 
     "flex-layout.row#banner-lp": {
         "props": {
+            "fullWidth": true,
             "horizontalAlign": "center"
         },
         "children": [
@@ -22,7 +23,7 @@
 
     "image#banner-lp": {
         "props": {
-            "src": "https://files.gamebanana.com/img/ss/guis/583c8cb3d831c.jpg",
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp___c4ffc133e9dbf6562aadefc3f7e97f11.png",
             "alt": "Landing Page Banner"
         }
     },
@@ -112,6 +113,7 @@
 
     "flex-layout.row#lp1-card-phone": {
         "props": {
+            "marginTop": 6,
             "verticalAlign": "middle",
             "horizontalAlign": "center"
         },
@@ -122,13 +124,13 @@
 
     "image#lp1-card": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2___5c1534ae7ca0bc36356136d1ccac648d.png"
         }
     },
 
     "image#lp1-card-phone": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2flipsmall___7f3a4abb4b6347751efa5330ac61f563.png"
         }
     },
 
@@ -177,13 +179,13 @@
 
     "image#lp2-card": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2flip___6d82e6686be9c73a77ada8afe817e53a.png"
         }
     },
 
     "image#lp2-card-phone": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2small___a13366cc34cc7ba994c15416887835e4.png"
         }
     },
 
@@ -332,13 +334,13 @@
 
     "image#lp3-card": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2___5c1534ae7ca0bc36356136d1ccac648d.png"
         }
     },
 
     "image#lp3-card-phone": {
         "props": {
-            "src": "https://mobileimages.lowes.com/product/converted/681884/681884381517.jpg?size=mpop"
+            "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/bannerlp2flipsmall___7f3a4abb4b6347751efa5330ac61f563.png"
         }
     }
 } 

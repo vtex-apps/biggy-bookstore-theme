@@ -53,7 +53,7 @@
     }
   },
 
-  "header-layout.mobile": {
+  "header-layout.mobile": { 
     "children": ["header-row#1-mobile", "header-row#2-mobile"]
   },
   "header-row#1-mobile": {
@@ -72,15 +72,106 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"],
+    "children": ["flex-layout.row#drawer"],
     "props": {
       "blockClass": "drawer-icon"
     }
   },
+
+  "flex-layout.row#drawer": {
+    "children": [
+      "flex-layout.col#drawer"
+    ]
+  },
+
+  "flex-layout.col#drawer": {
+    "children": [
+      "rich-text#drawer-head",
+      "menu#drawer"
+    ]
+  },
+
+  "rich-text#drawer-head": {
+    "props" : {
+      "text": "Categories"
+    }
+  },
+
   "menu#drawer": {
-    "children": ["menu-item#option1"],
+    "children": ["menu-item#category-drawer1", "menu-item#category-drawer2", "menu-item#category-drawer3", "menu-item#category-drawer4", "menu-item#category-drawer5"],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category-drawer1": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "History",
+        "text": "History"
+      }
+    }
+  },
+  "menu-item#category-drawer2": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Romance",
+        "text": "Romance"
+      }
+    }
+  },
+  "menu-item#category-drawer3": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Business",
+        "text": "Business"
+      }
+    }
+  },
+  "menu-item#category-drawer4": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Art",
+        "text": "Art"
+      }
+    }
+  },
+  "menu-item#category-drawer5": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Biographie",
+        "text": "Biographie"
+      }
     }
   },
 
