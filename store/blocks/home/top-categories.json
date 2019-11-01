@@ -1,0 +1,67 @@
+{
+    "flex-layout.row#top-categories": {
+        "children": [
+            "flex-layout.col#top-categories"
+        ]
+    },
+    "flex-layout.col#top-categories": {
+        "children": [
+            "flex-layout.row#top-categories-title",
+            "flex-layout.row#top-categories-images"
+        ]
+    },
+    "flex-layout.row#top-categories-title": {
+        "children": [
+            "rich-text#top-categories-title"
+        ]
+    },
+    "rich-text#top-categories-title": {
+        "props": {
+            "text": "Top Categories"
+        }
+    },
+    "flex-layout.row#top-categories-images": {
+        "children": [
+            "image#category1",
+            "image#category2",
+            "image#category3",
+            "image#category4",
+            "image#category5"
+        ]
+    },
+    "image#category1": {
+        "props": {
+            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+            "alt": "Category 1",
+            "link": "#"
+        }
+    },
+    "image#category2": {
+        "props": {
+            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+            "alt": "Category 1",
+            "link": "#"
+        }
+    },
+    "image#category3": {
+        "props": {
+            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+            "alt": "Category 1",
+            "link": "#"
+        }
+    },
+    "image#category4": {
+        "props": {
+            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+            "alt": "Category 1",
+            "link": "#"
+        }
+    },
+    "image#category5": {
+        "props": {
+            "src": "https://statics.livrariacultura.net.br/assets/static/images/banners-5/2018/Exp/Jul/exp-mais-vendidos.jpg",
+            "alt": "Category 1",
+            "link": "#"
+        }
+    }
+}
