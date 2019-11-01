@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      "flex-layout.row#top-shelves"
+      "flex-layout.row#top-shelves",
+      "flex-layout.row#top-categories"
     ]
   },
 
