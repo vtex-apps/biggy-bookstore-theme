@@ -140,7 +140,7 @@
   max-width: 100% !important;
 }
 
-.newsletter{
+.newsletter {
   max-width: initial;
 }
 
@@ -150,4 +150,11 @@
 
 .newsletter .container .inputGroup {
   border: 0px;
+}
+
+.logoContainer {
+  padding-top: 9px;
+  padding-bottom: 0;
+  display: inline-block;
+  text-align: center;
 }
